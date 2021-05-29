@@ -1,0 +1,51 @@
+.about-name{
+    margin-bottom: 70px;
+}
+
+.about-name-green-line{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.about-name-wraper{
+    text-align: center;
+    color: white;
+    h1{
+        margin-bottom: 20px;
+        font-family: Libertinus,serif;
+        font-size: 52px;
+        letter-spacing: -.025em;
+        font-weight: 700;
+        color: #fff;
+    }
+    &-p{
+        padding: 190px;
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+    p{
+       margin: auto;
+        font-family: canada-type-gibson,sans-serif;
+        font-size: 20px;
+        letter-spacing: .0275em;
+        color: #fff;
+    }
+
+}
+
+@media only screen and (max-width: 1200px) {
+ .about-name-wraper-p{
+    padding: 100px;
+    padding-top: 0;
+    padding-bottom: 0;
+ }
+    }
+    @media only screen and (max-width: 765px) {
+
+        .about-name-wraper-p{
+            padding: 50px;
+            padding-top: 0;
+            padding-bottom: 0;
+         }
+        }

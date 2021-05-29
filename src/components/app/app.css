@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.home-page-wraper-first-item {
+  background: url("https://www.2030climatechallenge.org/img/background-top.jpg") no-repeat;
+  background-size: cover;
+}
+
+.home-page-wraper-third-item {
+  background: url("https://www.2030climatechallenge.org/img/background-bottom.jpg") no-repeat;
+  background-size: cover;
+}
+/*# sourceMappingURL=app.css.map */

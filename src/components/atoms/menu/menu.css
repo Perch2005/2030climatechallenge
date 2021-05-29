@@ -1,0 +1,74 @@
+.menu {
+  position: relative;
+}
+
+.menu-wraper {
+  position: absolute;
+  top: -90px;
+  right: -26px;
+  background: white;
+}
+
+.menu-wraper-first-item-lines-group {
+  margin: auto;
+  margin-bottom: 65px;
+}
+
+.menu-wraper-first-item-lines-group div {
+  width: 100%;
+  padding: 2px;
+  background: white;
+  margin: auto;
+  margin-bottom: 10px;
+}
+
+.menu-wraper-first-item {
+  padding: 20px 10px 50px 10px;
+  background: #041e37;
+}
+
+.menu-wraper-first-item-name {
+  color: white;
+}
+
+.menu-wraper-first-item-name p {
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+  font-family: canada-type-gibson,sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.menu-wraper-second-item {
+  padding: 100px 0px 100px 0px;
+  border-bottom: 1px dashed #031d38;
+}
+
+.menu-wraper-second-item-name p {
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+  font-family: canada-type-gibson,sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  color: #057df6;
+}
+
+.menu-wraper-first-item:hover .line-hovre .menu-wraper-first-item-lines-group-item {
+  width: 50%;
+  -webkit-transition: 2s;
+  transition: 2s;
+}
+
+.menu-wraper-third-item {
+  padding: 40px 0px 40px 0px;
+}
+
+.menu-wraper-third-item-list {
+  list-style: none;
+}
+
+.menu-wraper-third-item-list li {
+  text-align: center;
+  margin-bottom: 10px;
+}
+/*# sourceMappingURL=menu.css.map */

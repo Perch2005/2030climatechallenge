@@ -1,0 +1,14 @@
+.item-list-wraper{
+    &-ul{
+        list-style: none;
+        li{
+            font-size: 23px;
+            margin-bottom: 50px;
+            color: gray;
+            &:hover{
+                color: #ffffff;
+                transition: 1s;
+            }
+        }
+    }
+}

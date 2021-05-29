@@ -1,0 +1,42 @@
+@import "../../scss-funcs/button-func";
+
+.footer-wraper{
+    display: flex;
+    justify-content: space-around;
+    &-logo{
+        display: flex;
+        flex-direction: column;
+        color: white;
+    }
+    &-info{
+        display: flex;
+        flex-direction: column;
+        &-a{
+            margin-bottom: 20px;
+        }
+        p,a{
+            color: white;
+        }
+    }
+    &-button{
+        button{
+            @include button( white,#3cb87c)
+        }
+    }
+}
+
+@media only screen and (max-width: 990px) {
+  .footer-wraper{
+ flex-direction: column;
+ &-logo, &-info,&-button, &-info-a{
+margin: auto;
+ }
+ &-logo{
+    width: 150px;
+    margin-bottom: 30px;
+}
+&-info{
+    margin-bottom: 30px;
+}
+  }
+  }

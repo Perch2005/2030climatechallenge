@@ -1,0 +1,163 @@
+@import "../../scss-funcs/button-func";
+.slide-show{
+    position: relative;
+    top: -115;
+    z-index: 999;
+    padding-left: 100px;
+}
+.slide-show-wraper{
+
+    background: url("https://s3.us-west-2.amazonaws.com/cch-cms-static/prod/images/registration.jpg") no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    
+    &-description{
+        padding: 80px;
+        h1{
+            margin-bottom: 20px;
+        }
+        &-green-line{
+            margin-bottom: 20px;
+        }
+        p{
+            width: 250px;
+        }
+    }
+    &-low-items{
+        display: flex;
+        justify-content: space-between;
+
+        &-left{
+            display: flex;
+            align-items: flex-end;
+            div{
+                padding: 25px;
+            }
+            &-index{
+                 background: #3bb87b;
+                 font-family: Libertinus,serif;
+                 font-size: 75px;
+                 letter-spacing: .01em;
+                 color: #fff;
+                 text-align: center;
+                 &-index{
+                     margin-bottom: 25px;
+                 }
+            }
+            &-length{
+                font-family: canada-type-gibson,sans-serif;
+                font-size: 23px;
+                color: #fff;
+            }
+                }
+
+        &-right{
+            padding-right: 50px;
+            display: flex;
+            &-registr-block{
+                position: relative;
+                top: 20px;
+                &-wraper{
+                    background: #041e37;
+                    padding: 30px;
+                    &-button{
+                        button{
+                             @include button(white, #057df6)
+                        }
+                    }
+                 &-text{
+                color: white;
+                &-date,h1{
+                    margin-bottom: 30px;
+                }
+                h1{
+                    font-family: Libertinus,serif;
+    font-size: 52px;
+    font-weight: 700;
+    letter-spacing: -.025em;
+    color: #fff;
+                }
+                &-date,&-info{
+                    font-family: canada-type-gibson,sans-serif;
+    font-size: 18px;
+    font-style: italic;
+    color: #deedfd;
+    letter-spacing: .005em;
+                }
+                &-info{
+                    width: 315px;
+                    margin-bottom: 100px;
+                }
+            }
+        }
+    }
+    &-buttons{
+        display: flex;
+        align-items: flex-end;
+&-next{
+    border: none;
+    padding: 25px 100px 25px 40px;
+    background: #057df6;
+    font-size: 12px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #fff;
+    letter-spacing: .4em;
+    cursor: pointer;
+}
+&-prev{
+    border: none;
+    padding: 25px 40px 25px 100px;
+    background: #1a2e59;
+    font-size: 12px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #fff;
+    letter-spacing: .4em;
+    cursor: pointer;
+}
+    
+    }
+        }
+    }
+}
+
+@media only screen and (max-width: 990px) {
+    .slide-show-wraper-low-items-left{
+        display: none;
+    }
+       }
+
+       @media only screen and (max-width: 765px) {
+        .slide-show-wraper-low-items-right {
+       margin: auto;
+       flex-direction: column-reverse;
+       position: relative;
+    bottom: -43px;
+    padding: 0 50px 0 50px;
+       &-registr-block-wraper-text-info{
+           width: 100%;
+       }
+       &-buttons{
+           &-prev,&-next{
+               width: 50%;
+               padding: 25px;
+           }
+       }
+        }
+           }
+
+           @media only screen and (max-width: 376px) {
+            .slide-show-wraper-low-items-right {
+        padding: 0 ;
+        &-registr-block-wraper-text h1{
+            font-size: 35px;
+        }
+            }
+            .slide-show-wraper-description p{
+                width: 100%;
+            }
+               }
+
+               

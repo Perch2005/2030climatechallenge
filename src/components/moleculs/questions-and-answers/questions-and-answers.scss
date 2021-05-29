@@ -1,0 +1,28 @@
+.questions-and-answers-wraper{
+    &-list{
+display: flex;
+justify-content: space-evenly
+}
+&-text{
+    margin-bottom: 50px;
+    &-h1{
+        h1{
+            font-family: Libertinus,serif;
+            font-size: 52px;
+            line-height: 52px;
+            font-weight: 700;
+            letter-spacing: -.02em;
+            color: #fff;
+        }
+    }
+    &-p{
+    width: 100%;
+    p,a{
+    font-size: 20px;
+    line-height: 30px;
+    color: #fff;
+    letter-spacing: -.001em;
+    }
+}
+}
+}

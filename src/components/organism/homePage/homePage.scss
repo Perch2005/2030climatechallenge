@@ -1,0 +1,24 @@
+.home-page-wraper-first-item{
+    background: url("https://www.2030climatechallenge.org/img/background-top.jpg") no-repeat;
+    background-size: cover;
+}
+.home-page-wraper-third-item{
+    background: url("https://www.2030climatechallenge.org/img/background-bottom.jpg") no-repeat;
+    background-size: cover;
+}
+
+.home-page-wraper-second-item{
+    background: white;
+     padding-bottom: 80px;
+    position: relative;
+    &-back{
+        position: absolute;
+        /* top: -20px; */
+        left: 0;
+        bottom: 0;
+        z-index: 1;
+        padding: 100px ;
+        width:50%;
+        background: #deedfd;
+    }
+}

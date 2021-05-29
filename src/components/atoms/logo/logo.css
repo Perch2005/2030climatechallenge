@@ -1,0 +1,20 @@
+.logo {
+  padding: 50px;
+  margin-right: auto;
+}
+
+.logo-wraper {
+  width: 352px;
+  height: 47px;
+}
+
+.logo-wraper img {
+  width: 100%;
+}
+
+@media only screen and (max-width: 376px) {
+  .logo-wraper {
+    width: 290px;
+  }
+}
+/*# sourceMappingURL=logo.css.map */

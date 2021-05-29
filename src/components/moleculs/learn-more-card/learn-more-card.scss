@@ -1,0 +1,71 @@
+@import "../../scss-funcs/button-func";
+
+.learn-more-card{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+    padding: 190px;
+    &-wraper{
+        padding: 100px 200px 100px 200px;
+        background: rgba(222,237,253,.8);
+
+&-button{
+    button{
+@include button( #041e37, #057df6)
+    }
+}
+
+        &-text{
+            h1{
+                // width: 690px;
+                font-family: Libertinus,serif;
+    font-size: 70px;
+    letter-spacing: -.0275em;
+    font-weight: 700;
+    color: #041e37;
+    margin-bottom: 50px;
+            }
+            p{
+                font-family: canada-type-gibson,sans-serif;
+                font-size: 24px;
+                font-weight: 300;
+                color: #041e37;
+                // width: 630px;
+                margin-bottom: 50px;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .learn-more-card-wraper-text{
+        text-align: center;
+        h1{
+            font-size: 40px;
+        }
+        p{
+            font-size: 17px;
+        }
+        &-button{
+            text-align: center;
+            button{
+        @include button( #041e37, #057df6)
+            }
+        }
+    }
+    .learn-more-card{
+        padding: 100px;
+        &-wraper{
+            padding: 50px;
+        }
+    }
+    }
+    @media only screen and (max-width: 765px) {
+
+        .learn-more-card{
+            padding: 50px;
+            &-wraper{
+                padding: 20px;
+            }
+        }
+        }

@@ -1,0 +1,16 @@
+.item-list-wraper-ul {
+  list-style: none;
+}
+
+.item-list-wraper-ul li {
+  font-size: 23px;
+  margin-bottom: 50px;
+  color: gray;
+}
+
+.item-list-wraper-ul li:hover {
+  color: #ffffff;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+/*# sourceMappingURL=item-list.css.map */

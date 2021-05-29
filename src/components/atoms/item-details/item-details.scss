@@ -1,0 +1,17 @@
+.item-details-wraper{
+    width: 385px;
+    overflow-y: scroll;
+    height: 300px;
+    p{
+        font-family: canada-type-gibson,sans-serif;
+        font-size: 20px;
+        line-height: 30px;
+        color: #fff;
+    }
+}
+
+@media only screen and (max-width: 376px) {
+    .item-details-wraper{
+        width: 230px;
+    }
+       }
